@@ -19,7 +19,3 @@ Route::get('/', function () {
 });
 
 Route::resource('books', BookController::class);
-// Route::resources([
-//     'books' => BookController::class,pro
-//     'authors' => AuthorController::class,
-// ]);
